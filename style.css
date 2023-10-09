@@ -1,0 +1,102 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+div{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(207, 232, 220);
+    /*border: 2px solid rgb(79, 185, 227); */
+}
+
+.header {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 232, 220);
+    /*border: 2px solid rgb(79, 185, 227);*/
+}
+
+.body {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 232, 220);
+    /* border: 2px solid rgb(79, 185, 227); */
+}
+
+.footer {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 232, 220);
+    /* border: 2px solid rgb(79, 185, 227); */
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: rgb(207, 232, 220);*/
+    line-height: 0;
+    background-color: #000408;
+    /* border: 2px solid rgb(79, 185, 227); */
+}
+
+.networkdashboard{
+    background-color: #000408;
+}
+
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 232, 220);
+    /* border: 2px solid rgb(79, 185, 227); */
+}
+
+.command {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+button {
+    background-color: #0489ee;
+    border: #000408;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #94d1ff;
+    border: #000408;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.filelists{
+    font:message-box;
+    font-size: 16px;
+    line-height: 0;
+}
+
+.infomationText{
+    background: black;
+    color:green;
+}

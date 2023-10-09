@@ -1,0 +1,23 @@
+usage: cloud automator [-h]
+                       [--mappingRule {regExp,dualReg,direct,super,nothing}]
+                       [--sub SUB] [--bP BP] [--sP SP] [--tP TP] [--tF TF]
+                       [--sF SF]
+
+v 0.09 by Ziang Chen
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mappingRule {regExp,dualReg,direct,super,nothing}, --mR {regExp,dualReg,direct,super,nothing}, -r {regExp,dualReg,direct,super,nothing}
+                        select the mapping rule [refExp/dualReg]
+  --sub SUB, --subsition SUB
+                        substition word
+  --bP BP, --p2 BP, --SubstitionPattern BP
+                        substition pattern
+  --sP SP, --p1 SP, --SourcePattern SP
+                        source pattern
+  --tP TP, --p3 TP, --TargetPattern TP
+                        target pattern
+  --tF TF, --TargetFolder TF
+                        target Folder
+  --sF SF, --SourceFolder SF
+                        source Folder
