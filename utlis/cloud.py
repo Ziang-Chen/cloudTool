@@ -1,7 +1,6 @@
 from src.fileoperation import file, folder
 from src.path import path
 
-#from src.setting import *
 
 
 class uploader:

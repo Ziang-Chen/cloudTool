@@ -1,4 +1,4 @@
-# Purpose: Event bus implementation
+# EventBus Class
 
 
 class event:

@@ -1,3 +1,8 @@
+# Automator CLI entrence
+# Author: Zhang Chen
+# CLI: python automator.py --help for more information
+
+
 from src.setting import *
 from tools.rename_cli import parser
 from utlis.pathmap import mapper

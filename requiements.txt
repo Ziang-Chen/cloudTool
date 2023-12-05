@@ -2,3 +2,4 @@ numpy
 setuptools
 pandas
 irods
+flask
