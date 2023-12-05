@@ -135,3 +135,16 @@ For simple upload or download can use
 ``` dotnetcli
 python3 automator.py --mR nothing --sF "./test/testSrc/" --tF "./test/testTgt/" --sP "*"
 ```
+
+## Web UI
+
+There's web GUI for this tool, based on flask, using following command
+
+``` 
+flask --app main run --debug
+```
+
+And open <http://127.0.0.1:5000> in default
+
+More infor can reference to <https://flask.palletsprojects.com/en/3.0.x/quickstart/>
+
